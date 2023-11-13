@@ -1,0 +1,98 @@
+body{
+    background: url(./img2/fondo.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.box-master{
+    background: #3AA4CE;
+    border-bottom: black solid 2px;
+}
+
+.box-master ul li a{
+    color: white;
+}
+
+#box-two{
+    background: #573613 ;
+}
+
+#box-two ::after{
+    content: "";
+    background: transparent;
+    position: relative;
+    display: block;
+    height: 20px;
+    margin: 0;
+    left: auto;
+    margin-top: -50px;
+}
+
+#box-three{
+    background: #3AA4CE;
+    position: relative;
+    margin-top: -20px;
+    width: 35%;
+    top: 10px;
+    z-index: 10;
+    box-shadow: 0 0 20px black;
+}
+#link{
+    position: relative;
+    bottom: 10px;
+    left: 20px;
+    margin-top: -55px;
+}
+
+#separador-main{
+    width: 100%;
+    height: 25px;
+    border-bottom: black solid 3px;
+}
+
+.card-borde{
+    border: solid 20px transparent;
+    overflow: hidden;
+    transition: all ease-out 0.2s;
+    
+}
+
+.card-borde :hover{
+    transform:scale(1.01);
+}
+
+.separator{
+    width: 100%;
+    position: relative;
+}
+
+.separator .content-separator{
+    background:#3AA4CE;
+    width: 100%;
+    height: 80px;
+    margin-top: 10px;
+    border-top-left-radius: 30%;
+    border-top-right-radius: 30%;
+    border: black solid 3px;
+}
+
+#ico{
+    background: url(./img2/fondo2.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.text-nintendo{
+    color: #929296;
+}
+
+.icon{
+    cursor:pointer;
+    transition: all ease-out 0.2s;
+}
+
+.icon :hover{
+    transform: scale(1.05);
+}
+
+.icoCar{
+width: 85%;
+}
